@@ -1,0 +1,5 @@
+{
+  "name": "Chatsubo",
+  "token_env": "DISCORD_TOKEN",
+  "command_prefix": "!"
+}
