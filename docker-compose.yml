@@ -1,0 +1,9 @@
+version: '3.9'
+
+services:
+  bots:
+    build: .
+    volumes:
+      - ./bots:/marsbots/bots
+    environment:
+      - SUPERVISOR_CONFIG_PATH=${SUPERVISOR_CONFIG_PATH}
